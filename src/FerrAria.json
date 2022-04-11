@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "name": "FerrAria",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 1,
+        "Nome": "FerrAria",
+        "Indirizzo": "Via Castelnuovo 10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.619438955744933,
+          44.831449682021486
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.620747,
+                    44.837621,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "CHIARA ACCONCIATURE",
+                "indirizzo": "Corso Giovecca 14",
+                "note": "La Bottega Storica Chiara Acconciature è stata fondata nel 1946. I locali sono inseriti nel contesto del Teatro Comunale di Ferrara e sono indubbiamente significativi per la storia e cultura del luogo.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/chiara-acconciature",
+                "Anno": 1946
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.62082186,
+                    44.82414451,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "BIRRERIA CLUB WEIZEN",
+                "indirizzo": "Via Otello Putinati 157",
+                "note": "Questa Bottega Storica risale al 1920, con la connotazione originaria di bar munito di sala biliardo. A partire dal 1985, il locale viene trasformato in un pub. Nel 1995 due giovani, allora inesperti e pieni di entusiasmo, raccolgono una sfida e decidono di creare il Club Weizen, inseguendo un unico obiettivo: stare bene e far stare bene le persone.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/birreria-club-weizen",
+                "Anno": 1985
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.63084,
+                    44.84133,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "BIRRERIA WILSON'S PUB",
+                "indirizzo": "Corso Porta Mare 91",
+                "note": "La Birreria Wilson's Pub risale al 1975 ed offre un’ottima varietà di birre alla spina, bibite, fritti, hamburger di carne, panini caldi e piadine artigianali. Queste ultime possono essere fatte con tre tipi di impasto: romagnolo classico, con la zucca (prodotto tradizionale tipico delle zone ferraresi)  oppure vino.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/birreria-wilsons-pub",
+                "Anno": 1975
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.619453,
+                    44.836453,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "BORSALINO",
+                "indirizzo": "Corso Martiri della Libertà 22",
+                "note": "Al pian terreno della Residenza Municipale, in Corso Martiri della Libertà, si incontra la Bottega Storica Borsalino: la boutique di abbigliamento, cappelli e accessori più antica di Ferrara, fondata nel lontano 1845. Ancora oggi il locale è caratterizzato dall'antica insegna, marchio della casa.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/borsalino-schiappelli",
+                "Anno": 1845
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.620174,
+                    44.837241,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "FARMACIA NAVARRA",
+                "indirizzo": "Corso Martiri della Libertà 27",
+                "note": "La Bottega Storica Farmacia Navarra è un punto di riferimento per gli abitanti di Ferrara. Conosciuta anche per il suo ambiente caratteristico, in quanto possiede gli arredi di farmacia più antichi della città, venne fondata nel 1738 in Piazza Della Pace, ora Corso Martiri Della Libertà.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/farmacia-navarra",
+                "Anno": 1738
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.621514,
+                    44.835382,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "FELLONI TESSUTI",
+                "indirizzo": "Via Canonica 8",
+                "note": "La Bottega Storica Felloni Tessuti, specializzata nella vendita dei migliori tessuti, capi ed accessori d'abbigliamento, venne creata nel 1946 da due giovani imprenditori, Giancarlo e Dina, e collocata in via Mazzini, in un locale stretto e lungo, con una  piccola vetrina che dava luce e colore all’intera via. ",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/felloni-tessuti",
+                "Anno": 1946
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614429,
+                    44.834666,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "BAR PANINOTECA HUSTARIAZA",
+                "indirizzo": "Via Piangipane 61",
+                "note": "Questa piccola e accogliente Bottega Storica, specializzata nella somministrazione di cibi e bevande della tradizione ferrarese, è caratterizzata da un arredamento originale e da  particolari collezioni di oggetti appesi alle pareti. L'Hustariaza vede come anno di fondazione il 1984.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/hustariaza",
+                "Anno": 1984
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.601278,
+                    44.838669,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "TRATTORIA LA GIGINA",
+                "indirizzo": "Via San Giacomo 51",
+                "note": "La famosa Trattoria “La Gigina” rappresenta un vero e proprio baluardo gastronomico della città di Ferrara. Fondata nel lontano 1901 dalla “Gigina”, donna dal carattere forte e deciso e segnata dalle esperienze di vita, la Trattoria è stata sempre gestita dalla stessa famiglia.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/trattoria-la-gigina",
+                "Anno": 1901
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.618459,
+                    44.833246,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PANIFICIO PASTICCERIA PERDONATI",
+                "indirizzo": "Via San Romano 108",
+                "note": "Ferrara, città estense e Patrimonio Unesco dell’Umanità, può vantare la presenza del famoso Panificio Pasticceria Perdonati. Il capostipite di questa famiglia di fornai, Otello Perdonati, inaugura il 3 ottobre 1949 il suo forno in Via San Romano 108/B.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/panificio-pasticceria-perdonati",
+                "Anno": 1949
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.621375,
+                    44.834438,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PASTICCERIA BAR GELATERIA BIDA",
+                "indirizzo": "Via Mazzini 20",
+                "note": "La Pasticceria Bar Gelateria Bida è una Bottega Storica di Ferrara fondata nel 1920, conosciuta da tutti per le sue specialità, ma anche per la figura dell'originaria padrona, la signora Giorgina, allora soprannominata “La Bidina”. Si trattava, infatti, della figlia di Ugo Bida, colui che aveva fondato in città la famosa Pasticceria Savoia, in via Borgoleoni. Il nome Bida, del resto, è a Ferrara sinonimo di grande pasticceria!",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/pasticceria-bar-gelateria-bida",
+                "Anno": 1920
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.620493,
+                    44.837731,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PISTELLI E BARTOLUCCI",
+                "indirizzo": "Corso della Giovecca 2",
+                "note": "La Bottega Storica Pistelli e Bartolucci, collocata nel palazzo del Teatro Comunale di Ferrara, fu fondata da Galeazzo Bartolucci nel lontano 1854. Inizialmente nata come bazar, si è specializzata nel tempo in discografia, musica e vendita di strumenti musicali.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/pistelli-bartolucci",
+                "Anno": 1854
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624129,
+                    44.831595,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PIZZERIA ORSUCCI",
+                "indirizzo": "Via Saraceno 116",
+                "note": "La Pizzeria Orsucci, riconosciuta come Bottega Storica nel 2010, venne fondata nel lontano 1936. Oggigiorno, il titolare, Armando Orsucci, ed il figlio Matteo, preparano con tanta passione e semplicità le inconfondibili pizze “con” e “senza” (acciughe) e le inimitabili fette di ceci, con impasti preparati artigianalmente e cotti nel forno a legna.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/pizzeria-orsucci",
+                "Anno": 1936
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6108326,
+                    44.82981897,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "ROSTICCERIA DUCALE",
+                "indirizzo": "Via Argine Ducale 59",
+                "note": "Dal 1961 la Rosticceria Ducale è specializzata nella produzione e vendita di primi, secondi, sia di carne che di pesce, contorni e dolci secondo la tradizione, ma con le regole di una conduzione moderna.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/rosticceria-ducale",
+                "Anno": 1961
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61762181,
+                    44.83359713,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "OSTERIA DEGLI ANGELI",
+                "indirizzo": "Via delle Volte 4",
+                "note": "Situata in Via Delle Volte (angolo Corso Porta Reno), vicino all'ultima torre medievale gentilizia rimasta a Ferrara, l'Osteria Degli Angeli è uno dei locali storici più caratteristici della città. L'attività dell' accogliente osteria è stata documentata già nel lontano 1400, quando presso di essa era allestita la dogana per il passaggio delle merci, con annesso il punto di ristoro per i mercanti - trasportatori, nonché la cantina dei vini.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/osteria-degli-angeli",
+                "Anno": 1400
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61798784,
+                    44.83591529,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "MACELLERIA PALTRINIERI",
+                "indirizzo": "Via Cortevecchia, 45/a",
+                "note": "La Macelleria Paltrinieri è situata in Via Cortevecchia, nel cuore di Ferrara. Davvero un’altra epoca dove il lento rituale quotidiano scandiva il tempo e le vite delle persone che si ritrovavano in questi negozi dove si assaporava la genuinità non solo dei prodotti ma anche dei rapporti personali.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/macelleria-paltrinieri-1",
+                "Anno": 1951
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.62028091,
+                    44.83160718,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PANIFICIO EVANGELISTI",
+                "indirizzo": "Via Carlo Mayr, 121",
+                "note": "All'interno delle mura cittadine, in via Carlo Mayr, in pieno centro storico si trova il Panificio Evangelisti, attività di panificazione artigianale profondamente radicata nel tessuto commerciale cittadino.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/panificio-evangelisti-1",
+                "Anno": 1970
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.65452492,
+                    44.7662686,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "TABACCHERIA MASCELLLANI",
+                "indirizzo": "Via Brigata Partigiani Babini, 6",
+                "note": "Nella frazione di Gaibanella si trova la Tabaccheria Mascellani, vero e proprio punto di riferimento storico per la piccola comunità. La tabaccheria è nata nel 1928 ed è gestita dalla famiglia Mascellani da ben tre generazioni, fin dal 1937.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/tabaccheria-mascellani",
+                "Anno": 1928
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60586002,
+                    44.8300676,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PARRUCCHIERA FIORELLA",
+                "indirizzo": "Via Carlo Cattaneo, 66",
+                "note": "Attività di parrucchiera dal 1971, il salone è caratterizzato da interni risalenti agli anni 70’ e dalla presenza di una vetrinetta contenente strumenti del settore acconciatura d'artigianato risalenti agli anni 50’.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/parrucchiera-fiorella",
+                "Anno": 1971
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61883279,
+                    44.83364319,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PIZZERIA ARCOBALENO",
+                "indirizzo": "Via San Romano, 82",
+                "note": "La Pizzeria Arcobaleno nasce nel 1965 in via Borgo dei Leoni, ma si trasferisce in Via San Romano 82 nell’Agosto del 1971. Da sempre è gestita dalla famiglia Buti. Si tratta del primo esercizio di produzione e vendita di pizza al taglio aperto a Ferrara e da sempre la pizzeria, collocata nel centro storico, ha saputo custodire la tradizione - formati, ingredienti e profumi - rappresentando un vero e proprio punto di riferimento per la città.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/pizzeria-arcobaleno",
+                "Anno": 1965
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61728002,
+                    44.8336728,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PANIFICIO LE DELIZIE DI CAPPELLI",
+                "indirizzo": "Via Ripagrande 4/6",
+                "note": "Un'attività di panificio artigianale profondamente radicata nel tessuto commerciale del centro storico cittadino la cui anzianità d’azienda da ricerche di archivio risale al 5 novembre 1970.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/panificio-le-delizie-di-cappelli",
+                "Anno": 1970
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61605821,
+                    44.83761227,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "PAMPEPATO ESTENSE",
+                "indirizzo": "Via Croce Bianca, 3",
+                "note": "Laboratorio Pasticceria e Dolciumi costituito negli anni ’30 fondato dal Sig. Oddone Di Caro. Iscritto al registro Ditte nel 1935 e all’Albo Imprese Artigiane dal 1957, l'attività porta avanti la produzione artigianale con una ricetta storica che si protrae dal 1930 coinvolgendo tre generazioni.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/pampepato-estense",
+                "Anno": 1935
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61168601,
+                    44.82809654,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "GIOIELLERIA MARZOLA",
+                "indirizzo": "Via Bologna, 126",
+                "note": "Attività di vendita orologeria, argenteria e preziosi risalente al 18 aprile del 1963. Fondata da Marzola Luigi e ceduta nel 1986 a Marzola Alfredo che la gestisce tuttora insieme alla figlia Silvia, che ha studiato arte orafa tra Vicenza e Firenze.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/gioielleria-marzola",
+                "Anno": 1963
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Botteghe_storiche_wgs84.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61943132,
+                    44.83706612,
+                    0
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "name": "BIRRERIA GIORI",
+                "indirizzo": "Piazza Savonarola, 1",
+                "note": "Dal 1881 l’attività commerciale bar birraria Giori si trova nel centro storico di Ferrara ai piedi del Castello Estense in piazza Savonarola.",
+                "link": "https://www.ferraraterraeacqua.it/it/botteghe-storiche-1/birraria-giori",
+                "Anno": 1881
+            }
+        }
+    ],
+    "totalFeatures": 23,
+    "numberMatched": 23,
+    "numberReturned": 23,
+    "timeStamp": "2022-04-08T17:25:01.902Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

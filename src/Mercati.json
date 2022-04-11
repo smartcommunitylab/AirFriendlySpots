@@ -1,0 +1,573 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7065357,
+                    44.80606119
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 1,
+                "Nome": "Cona",
+                "giorno": "2",
+                "indirizzo": "Via Comacchio 943"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61744635,
+                    44.83260517
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 2,
+                "Nome": "Travaglio giornaliero",
+                "giorno": "2-3-4-5-6",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61659549,
+                    44.83283638
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61715876,
+                    44.83245855
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6171137,
+                    44.83282698
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61639404,
+                    44.83234294
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Porta Reno"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61708586,
+                    44.83337869
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Porta Reno"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61766901,
+                    44.8338223
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Porta Reno"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6182601,
+                    44.83435238
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Porta Reno"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61870276,
+                    44.83488998
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Porta Reno"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6192332,
+                    44.83552512
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Corso Martiri"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61945115,
+                    44.83619179
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Corso Martiri"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61974241,
+                    44.83679975
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Corso Martiri"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.64186417,
+                    44.82142984
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 6,
+                "Nome": "Villa Fulvia",
+                "giorno": "3",
+                "indirizzo": "Via Valle Mantello"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61247108,
+                    44.84867772
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 7,
+                "Nome": "Piazzale Giochi",
+                "giorno": "3",
+                "indirizzo": "Piazzale Giochi"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.63498175,
+                    44.84049588
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 8,
+                "Nome": "San Giovanni",
+                "giorno": "4",
+                "indirizzo": "Piazzale San Giovann"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60776749,
+                    44.87823338
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 9,
+                "Nome": "Pontelagoscuro",
+                "giorno": "5",
+                "indirizzo": "Viale Savonuzzi"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.55200569,
+                    44.8500768
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 10,
+                "Nome": "Porotto",
+                "giorno": "3",
+                "indirizzo": "Piazzetta Artioli"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.63922876,
+                    44.73269484
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 11,
+                "Nome": "San Bartolomeo",
+                "giorno": "6",
+                "indirizzo": "Via Cervella"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.59090072,
+                    44.77933864
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 12,
+                "Nome": "San Martino",
+                "giorno": "6",
+                "indirizzo": "Piazza Berlinguer"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60460592,
+                    44.82842208
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 13,
+                "Nome": "Barlaam",
+                "giorno": "2",
+                "indirizzo": "Via Barlaam"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60194798,
+                    44.82152995
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 14,
+                "Nome": "Krasnodar",
+                "giorno": "6",
+                "indirizzo": "Viale Krasnodar"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60338331,
+                    44.82086156
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 14,
+                "Nome": "Krasnodar",
+                "giorno": "6",
+                "indirizzo": "Viale Krasnodar"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61799505,
+                    44.83130414
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "2",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6167784,
+                    44.83211139
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61784658,
+                    44.83198855
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61701348,
+                    44.8333281
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6177146,
+                    44.83387502
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 4,
+                "Nome": "Travaglio",
+                "giorno": "1",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61694337,
+                    44.83275777
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 5,
+                "Nome": "Mercato del venerdi",
+                "giorno": "5",
+                "indirizzo": "Piazza Travaglio"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60484082,
+                    44.86314983
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 3,
+                "Nome": "Barco",
+                "giorno": "2",
+                "indirizzo": "Piazza Emilia"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "Mercati_point_wgs84.31",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.60867635,
+                    44.87945036
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 9,
+                "Nome": "Pontelagoscuro",
+                "giorno": "venerdi",
+                "indirizzo": "Viale Savonuzzi"
+            }
+        }
+    ],
+    "totalFeatures": 31,
+    "numberMatched": 31,
+    "numberReturned": 31,
+    "timeStamp": "2022-04-11T10:23:27.573Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

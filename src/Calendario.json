@@ -1,0 +1,29 @@
+{
+    "sfide": [
+        {
+            "categorie": [
+                {
+                    "nome": "Mercati"
+                },
+                {
+                    "nome": "Botteghe"
+                }
+            ],
+            "periodo": {
+                "dal": "2022-03-27",
+                "al": "2022-04-18"
+            }
+        },
+        {
+            "categorie": [
+                {
+                    "nome": "Centraline"
+                }
+            ],
+            "periodo": {
+                "dal": "2022-03-10",
+                "al": "2022-03-31"
+            }
+        }
+    ]
+}

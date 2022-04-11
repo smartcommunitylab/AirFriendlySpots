@@ -1,0 +1,204 @@
+{
+    "type": "FeatureCollection",
+    "name": "SmartHub",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020065",
+                "name": "Barco",
+                "description": "Via Rino Maragno 46, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.607838,
+                    44.860988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020067",
+                "name": "Modena",
+                "description": "Via Guglielmo Marconi 19, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.598717,
+                    44.846107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020068",
+                "name": "Porta Catena",
+                "description": "Piazzale dei Giochi 67, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6129,
+                    44.84884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020069",
+                "name": "Arginone",
+                "description": "Via Arginone 206 B, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58301,
+                    44.84227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020070",
+                "name": "Corso Isonzo",
+                "description": "Corso Isonzo 1, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61211,
+                    44.84151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020072",
+                "name": "Mosti",
+                "description": "Via Gaetano Recchi 5H, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.609195,
+                    44.82685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020073",
+                "name": "Bologna",
+                "description": "Via Bologna 549, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.589487,
+                    44.808802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020074",
+                "name": "Cocomaro di Cona",
+                "description": "Via Comacchio 687, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.68375,
+                    44.812002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020075",
+                "name": "Villa Fulvia",
+                "description": "Via delle Mandriole 29, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.64844,
+                    44.82365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020077",
+                "name": "Pontelagoscuro",
+                "description": "Via Antonio Dolcetti 32, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.601144,
+                    44.879184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020076",
+                "name": "CUS Ferrara",
+                "description": "Via Gramicia 70, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.633109,
+                    44.850239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "aq_labservice_LS0621020066",
+                "name": "Porotto",
+                "description": "Via Ladino 26, Porotto",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5508,
+                    44.84914
+                ]
+            }
+        }
+    ]
+}
