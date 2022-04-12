@@ -1,0 +1,59 @@
+image: docker:19
+
+services:
+  - docker:dind
+
+stages:
+  - build
+  - container-build
+  - test
+  - container-scan
+  - deploy
+
+include:
+  - template: Security/Container-Scanning.gitlab-ci.yml
+  - template: Security/Dependency-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+
+variables:
+  SECURE_LOG_LEVEL: info
+  DOCKER_DRIVER: overlay
+  CONTAINER_IMAGE: smartcommunitylab/airfriendlyspots:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA
+  CONTAINER_IMAGE_LATEST: smartcommunitylab/airfriendlyspots:$CI_COMMIT_REF_NAME-latest
+
+fronted-build:
+  image: node:lts-alpine
+  stage: build
+  script:
+    - apk --no-cache add python2 build-base
+    - npm install
+    - npm run build
+
+fronted-container-build:
+  stage: container-build
+  environment:
+    name: $CI_COMMIT_REF_NAME
+  script:
+    - docker login -u $DHUB_USER -p $DHUB_PASS
+    - DOCKER_BUILDKIT=1 docker build -f Dockerfile -t $CONTAINER_IMAGE -t $CONTAINER_IMAGE_LATEST .
+    - docker push $CONTAINER_IMAGE
+    - docker push $CONTAINER_IMAGE_LATEST
+
+container_scanning:
+  stage: container-scan
+  variables:
+    DOCKER_IMAGE: smartcommunitylab/airfriendlyspots:$CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA
+    DOCKERFILE_PATH: "Dockerfile"
+    GIT_STRATEGY: fetch
+    DOCKER_USER: ""
+    DOCKER_PASSWORD: ""
+
+deploy:
+  stage: deploy
+  image: smartcommunitylab/kubectl-alpine:latest
+  environment:
+    name: platform-new
+  script:
+    - echo "deploy frontend"
+    - kubectl -n air-friendly-spots set image deployments/air-friendly-spots air-friendly-spots=$CONTAINER_IMAGE --record=true
+    - kubectl -n air-friendly-spots rollout status deployment air-friendly-spots
