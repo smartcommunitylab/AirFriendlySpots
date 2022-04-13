@@ -7,6 +7,15 @@
                 },
                 {
                     "nome": "Botteghe"
+                },
+                {
+                    "nome": "Piante"
+                },
+                {
+                    "nome": "Centraline"
+                },
+                {
+                    "nome": "FerrAria"
                 }
             ],
             "periodo": {

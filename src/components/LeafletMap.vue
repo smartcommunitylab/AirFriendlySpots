@@ -4,95 +4,36 @@
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
-        <v-col cols="12">
-          <v-card color="orange">
-            <div class="d-flex flex-no-wrap justify-space-between">
-              <div>
-                <v-card-title class="text-h5"> OdorBot </v-card-title>
-
-                <v-card-subtitle>Segnala un Odore o un Disagio</v-card-subtitle>
-
-                <v-card-actions>
-                  <v-btn
-                    class="ml-2"
-                    variant="outlined"
-                    size="small"
-                    @click="openVideo"
-                  >
-                    VIDEO
-                    <font-awesome-icon
-                      icon="fa-brands fa-youtube"
-                      color="red"
-                    />
-                  </v-btn>
-                  <v-btn
-                    @click="openBot"
-                    class="ml-2"
-                    variant="outlined"
-                    size="small"
-                  >
-                    Segnala
-                    <!-- Add the style and icon you want -->
-                    <font-awesome-icon
-                      icon="fa-brands fa-telegram"
-                      color="blue"
-                    />
-                  </v-btn>
-                </v-card-actions>
-              </div>
-
-              <!--<v-avatar class="ma-3" size="125" rounded="0">
-                <v-img
-                  src="https://cdn.vuetifyjs.com/images/cards/foster.jpg"
-                ></v-img>
-              </v-avatar>-->
-            </div>
-          </v-card>
-        </v-col>
-        <!--<div class="button">
+        <v-card class="mx-auto" max-width="344" color="#fec325">
+          <v-img src="../assets/OdorAlert.jpg" height="200px"></v-img>
           <center>
-            <p @click="openBot">Segnala un Odore o un Disagio</p>
+            <v-card-subtitle> Segnala un Odore o un Disagio </v-card-subtitle>
+
+            <v-card-actions>
+              <v-btn
+                class="ml-2"
+                variant="outlined"
+                size="small"
+                @click="openVideo"
+              >
+                VIDEO
+                <font-awesome-icon icon="fa-brands fa-youtube" color="red" />
+              </v-btn>
+              <v-btn
+                @click="openBot"
+                class="ml-2"
+                variant="outlined"
+                size="small"
+              >
+                Segnala
+                <!-- Add the style and icon you want -->
+                <font-awesome-icon icon="fa-brands fa-telegram" color="blue" />
+              </v-btn>
+            </v-card-actions>
           </center>
-        </div>-->
+        </v-card>
       </l-control>
 
-      <!--<div class="mdc-card__actions">
-        <button
-          class="mdc-icon-button mdc-card__action mdc-card__action--icon"
-          aria-pressed="false"
-          aria-label="Add to favorites"
-          title="Add to favorites"
-        >
-          <i
-            class="
-              material-icons
-              mdc-icon-button__icon mdc-icon-button__icon--on
-            "
-            >favorite</i
-          >
-          <i class="material-icons mdc-icon-button__icon">favorite_border</i>
-        </button>
-        <button
-          class="
-            material-icons
-            mdc-icon-button
-            mdc-card__action mdc-card__action--icon
-          "
-          title="Share"
-        >
-          share
-        </button>
-        <button
-          class="
-            material-icons
-            mdc-icon-button
-            mdc-card__action mdc-card__action--icon
-          "
-          title="More options"
-        >
-          more_vert
-        </button>
-      </div>-->
       <l-geo-json
         v-if="showSmartHub"
         :geojson="SmartHubGeoJson"
@@ -200,7 +141,7 @@ const bottegheIcon = L.icon({
 });
 const pianteIcon = L.icon({
   iconUrl: pianteMarkerIcon,
-  iconSize: [15, 15],
+  iconSize: [37, 37],
   iconAnchor: [16, 37],
   popupAnchor: [0, -28],
 });
@@ -433,15 +374,20 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
-        layer.bindTooltip(
-          // feature.properties.Id +
-          "<div><center><b>CENTRALINA</b></center></div>" +
-            "<div><center>" +
-            feature.properties.name +
-            "</center></div>",
+        var text =
+          "14 <b>centraline di rilevamento</b> della qualità dell’aria distribuite in città.";
 
-          { permanent: false, sticky: true }
+        var popup = L.popup().setContent(
+          "<center><p><b>LE AZIONI DI AIR-BREAK</b></p></center><p>" +
+            text +
+            "<p><b>Nome Centralina: </b>" +
+            feature.properties.name +
+            "</p><p><b>Indirizzo: </b>" +
+            feature.properties.description +
+            "</p><a href='https://airbreakferrara.net/le-azioni/' target='_blank'>Vai al Sito</a>"
         );
+
+        layer.bindPopup(popup);
       };
     },
     onEachFeatureFunctionFerrAria() {
@@ -449,13 +395,19 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
-        layer.bindTooltip(
-          // feature.properties.Id +
-
-          "<div><center><b>" + feature.properties.Nome + "</b</center></div>",
-
-          { permanent: false, sticky: true }
+        var text =
+          "<b>FerrAria - </b>Il centro d’informazione cittadina sulla qualità dell’aria a Ferrara.";
+        var text1 =
+          "Lo spazio allestito dentro il Laboratorio aperto ex-teatro verdi rappresenta la piattaforma fisica del progetto Air-Break. È uno spazio aperto a tutti, dove informarsi sulla qualità dell’aria a Ferrara e contribuire al suo miglioramento. Fino a giugno 2023, data di completamento del progetto, FerrAria ospiterà i laboratori di partecipazione cittadina e un programma di eventi e incontri pubblici.";
+        var popup = L.popup().setContent(
+          "<center><p><b>LE AZIONI DI AIR-BREAK</b></p></center><p>" +
+            text +
+            "</p><p>" +
+            text1 +
+            "</p><a href='https://airbreakferrara.net/ferraria/' target='_blank'>Vai al Sito</a>"
         );
+
+        layer.bindPopup(popup);
       };
     },
     onEachFeatureFunctionSmartHub() {
@@ -474,16 +426,25 @@ export default {
       if (!this.enableTooltip) {
         return () => {};
       }
-      return (feature, layer) => {
-        layer.bindTooltip(
-          "<div><center><b>ALBERO</b></center></div>" +
-            "<div><center>" +
-            feature.properties.EntityHand +
-            "</center></div>",
 
-          { permanent: false, sticky: true }
+      var text =
+        "Messa a dimora di 2000 tra alberi e arbusti in diverse aree della città per contrastare l’effetto isola di calore e per una migliore qualità dell’aria.";
+
+      return (feature, layer) => {
+        var popup = L.popup().setContent(
+          "<center><p><b>LE AZIONI DI AIR-BREAK</b></p></center><p>" +
+            text +
+            "<p><b>Area di piantumazione: </b>" +
+            feature.properties.NOME +
+            "</p><p><b>Specie Albero: </b>" +
+            feature.properties.SPECIE_ALB +
+            "</p><p><b>Specie Arborea: </b>" +
+            feature.properties.SPECIE_ARB +
+            "</p><a href='https://airbreakferrara.net/le-azioni/' target='_blank'>Vai al Sito</a>"
         );
-      };
+
+        layer.bindPopup(popup);
+      }; //end return
     },
   },
   methods: {
@@ -655,6 +616,13 @@ button {
   width: 200px !important;
   min-width: 200px !important;
   white-space: normal;
+}
+.mx-auto {
+  margin: 20px;
+  box-shadow: 9px 9px 9px rgba(128, 128, 128, 0.6);
+}
+.mx-auto:hover {
+  box-shadow: 9px 9px 9px rgba(20, 20, 20, 0.6);
 }
 </style>
 
