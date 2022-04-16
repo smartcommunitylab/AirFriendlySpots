@@ -4,6 +4,69 @@
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
+        <v-menu offset-y full-width>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn color="primary" dark v-bind="attrs" v-on="on" width="100%">
+              <font-awesome-icon
+                icon="fa-brands fa-telegram"
+                color="white"
+                size="lg"
+                pull="left"
+              />
+              Segnala un Odore/Disagio
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-item>
+              <v-card
+                class="mx-auto"
+                max-width="344"
+                outlined
+                color="transparent"
+              >
+                <p>
+                  OdorBOT is a virtual chatting solution made for collecting
+                  Citizens’ reports of odor nuisances that cause olfactory
+                  harassments over the time.
+                </p>
+                <!-- <v-img src="../assets/OdorAlert.jpg" height="200px"></v-img>-->
+
+                <v-card-subtitle class="justify-center">
+                  <a href="https://odorprep.eu/odorbot/" target="_blank"
+                    >Vai al Sito</a
+                  >
+                </v-card-subtitle>
+                <v-card-actions class="justify-center">
+                  <v-btn
+                    class="ml-2"
+                    variant="outlined"
+                    size="small"
+                    @click="openVideo"
+                  >
+                    VIDEO
+                    <font-awesome-icon
+                      icon="fa-brands fa-youtube"
+                      color="red"
+                    />
+                  </v-btn>
+                  <v-btn
+                    @click="openBot"
+                    class="ml-2"
+                    variant="outlined"
+                    size="small"
+                  >
+                    Segnala
+                    <font-awesome-icon
+                      icon="fa-brands fa-telegram"
+                      color="blue"
+                    />
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+        <!--
         <v-card class="mx-auto" max-width="344" color="#fec325">
           <v-img src="../assets/OdorAlert.jpg" height="200px"></v-img>
           <center>
@@ -26,12 +89,12 @@
                 size="small"
               >
                 Segnala
-                <!-- Add the style and icon you want -->
+             
                 <font-awesome-icon icon="fa-brands fa-telegram" color="blue" />
               </v-btn>
             </v-card-actions>
           </center>
-        </v-card>
+        </v-card>-->
       </l-control>
 
       <l-geo-json
