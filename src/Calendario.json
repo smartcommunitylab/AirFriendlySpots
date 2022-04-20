@@ -1,6 +1,24 @@
 {
     "sfide": [
         {
+            "nome": "Test - Luoghi del Progetto Air-Break",
+            "categorie": [
+                {
+                    "nome": "Piante"
+                },
+                {
+                    "nome": "Centraline"
+                },
+                {
+                    "nome": "FerrAria"
+                }
+            ],
+            "periodo": {
+                "dal": "2022-04-20",
+                "al": "2022-05-06"
+            }
+        },
+        {
             "nome": "Luoghi del Progetto Air-Break",
             "categorie": [
                 {
