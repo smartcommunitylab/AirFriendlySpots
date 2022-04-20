@@ -1,13 +1,8 @@
 {
     "sfide": [
         {
+            "nome": "Luoghi del Progetto Air-Break",
             "categorie": [
-                {
-                    "nome": "Mercati"
-                },
-                {
-                    "nome": "Botteghe"
-                },
                 {
                     "nome": "Piante"
                 },
@@ -19,19 +14,23 @@
                 }
             ],
             "periodo": {
-                "dal": "2022-03-27",
-                "al": "2022-04-30"
+                "dal": "2022-05-07",
+                "al": "2022-05-20"
             }
         },
         {
+            "nome": "Botteghe Storiche e Mercati di Ferrara",
             "categorie": [
                 {
-                    "nome": "Centraline"
+                    "nome": "Mercati"
+                },
+                {
+                    "nome": "Botteghe"
                 }
             ],
             "periodo": {
-                "dal": "2022-03-10",
-                "al": "2022-03-31"
+                "dal": "2022-05-21",
+                "al": "2022-06-03"
             }
         }
     ]
