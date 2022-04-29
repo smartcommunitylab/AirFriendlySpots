@@ -2,6 +2,7 @@
     "sfide": [
         {
             "nome": "Test - Luoghi del Progetto Air-Break",
+            "slug": "test",
             "categorie": [
                 {
                     "nome": "Piante"
@@ -20,6 +21,7 @@
         },
         {
             "nome": "Luoghi del Progetto Air-Break",
+            "slug": "airbreak",
             "categorie": [
                 {
                     "nome": "Piante"
@@ -38,6 +40,7 @@
         },
         {
             "nome": "Botteghe Storiche e Mercati di Ferrara",
+            "slug": "bottmer",
             "categorie": [
                 {
                     "nome": "Mercati"
