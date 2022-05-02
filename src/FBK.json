@@ -1,0 +1,63 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "FBK",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.151505,                 
+                    46.0670688
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 1
+            }
+        },
+      
+        {
+            "type": "Feature",
+            "id": "Orostube",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                   11.1483275,                                     
+                   46.0648538
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 2
+            }
+        },
+      
+        {
+            "type": "Feature",
+            "id": "Salesa",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  11.1526621,
+                  46.0661943
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "Id": 3
+            }
+        }      
+      
+    ],
+    "totalFeatures": 3,
+    "numberMatched": 3,
+    "numberReturned": 3,
+    "timeStamp": "2022-04-11T10:23:27.573Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}
