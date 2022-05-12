@@ -4,9 +4,9 @@ services:
   - docker:dind
 
 stages:
-  - build
   - container-build
   - deploy
+  - build
   - container-scan
   - test
 
