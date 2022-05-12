@@ -10,8 +10,8 @@
   "features": [
     {
       "type": "Feature",
+      "id": "Ferraria_1",
       "properties": {
-        "ID": 1,
         "Nome": "FerrAria",
         "Indirizzo": "Via Castelnuovo 10"
       },

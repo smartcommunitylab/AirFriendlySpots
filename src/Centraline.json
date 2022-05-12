@@ -10,8 +10,8 @@
     "features": [
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020065",
             "properties": {
-                "id": "aq_labservice_LS0621020065",
                 "name": "Barco",
                 "description": "Via Rino Maragno 46, Ferrara",
                 "organization": "aq_labservice"
@@ -26,8 +26,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020067",
             "properties": {
-                "id": "aq_labservice_LS0621020067",
                 "name": "Modena",
                 "description": "Via Guglielmo Marconi 19, Ferrara",
                 "organization": "aq_labservice"
@@ -42,8 +42,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020068",
             "properties": {
-                "id": "aq_labservice_LS0621020068",
                 "name": "Porta Catena",
                 "description": "Piazzale dei Giochi 67, Ferrara",
                 "organization": "aq_labservice"
@@ -58,8 +58,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020069",
             "properties": {
-                "id": "aq_labservice_LS0621020069",
                 "name": "Arginone",
                 "description": "Via Arginone 206 B, Ferrara",
                 "organization": "aq_labservice"
@@ -74,8 +74,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020070",
             "properties": {
-                "id": "aq_labservice_LS0621020070",
                 "name": "Corso Isonzo",
                 "description": "Corso Isonzo 1, Ferrara",
                 "organization": "aq_labservice"
@@ -90,8 +90,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020072",
             "properties": {
-                "id": "aq_labservice_LS0621020072",
                 "name": "Mosti",
                 "description": "Via Gaetano Recchi 5H, Ferrara",
                 "organization": "aq_labservice"
@@ -106,8 +106,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020073",
             "properties": {
-                "id": "aq_labservice_LS0621020073",
                 "name": "Bologna",
                 "description": "Via Bologna 549, Ferrara",
                 "organization": "aq_labservice"
@@ -122,8 +122,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020074",
             "properties": {
-                "id": "aq_labservice_LS0621020074",
                 "name": "Cocomaro di Cona",
                 "description": "Via Comacchio 687, Ferrara",
                 "organization": "aq_labservice"
@@ -138,8 +138,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020075",
             "properties": {
-                "id": "aq_labservice_LS0621020075",
                 "name": "Villa Fulvia",
                 "description": "Via delle Mandriole 29, Ferrara",
                 "organization": "aq_labservice"
@@ -154,8 +154,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020077",
             "properties": {
-                "id": "aq_labservice_LS0621020077",
                 "name": "Pontelagoscuro",
                 "description": "Via Antonio Dolcetti 32, Ferrara",
                 "organization": "aq_labservice"
@@ -170,8 +170,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020076",
             "properties": {
-                "id": "aq_labservice_LS0621020076",
                 "name": "CUS Ferrara",
                 "description": "Via Gramicia 70, Ferrara",
                 "organization": "aq_labservice"
@@ -186,8 +186,8 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020066",
             "properties": {
-                "id": "aq_labservice_LS0621020066",
                 "name": "Porotto",
                 "description": "Via Ladino 26, Porotto",
                 "organization": "aq_labservice"
