@@ -6,8 +6,8 @@ services:
 stages:
   - build
   - container-build
-  - container-scan
   - deploy
+  - container-scan
   - test
 
 include:
