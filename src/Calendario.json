@@ -3,6 +3,7 @@
         {
             "nome": "Test - Luoghi del Progetto Air-Break",
             "slug": "test",
+            "attiva": true,
             "categorie": [
                 {
                     "nome": "Piante"
@@ -19,12 +20,13 @@
             ],
             "periodo": {
                 "dal": "2022-05-04",
-                "al": "2022-05-13"
+                "al": "2022-12-31"
             }
         },
         {
             "nome": "Luoghi del Progetto Air-Break",
             "slug": "airbreak",
+            "attiva": false,
             "categorie": [
                 {
                     "nome": "Piante"
@@ -38,12 +40,13 @@
             ],
             "periodo": {
                 "dal": "2022-05-13",
-                "al": "2022-05-27"
+                "al": "2022-12-31"
             }
         },
         {
             "nome": "Botteghe Storiche e Mercati di Ferrara",
             "slug": "bottmer",
+            "attiva": false,
             "categorie": [
                 {
                     "nome": "Mercati"
@@ -54,7 +57,7 @@
             ],
             "periodo": {
                 "dal": "2022-05-28",
-                "al": "2022-06-10"
+                "al": "2022-12-31"
             }
         }
     ]

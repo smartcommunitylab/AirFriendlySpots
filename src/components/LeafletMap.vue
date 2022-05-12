@@ -4,7 +4,7 @@
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
-        <v-menu offset-y full-width>
+        <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn color="primary" dark v-bind="attrs" v-on="on" width="100%">
               <font-awesome-icon
@@ -548,7 +548,7 @@ export default {
       window.location.assign(url);
     },
     openVideo() {
-      alert("apri Video OdorBot");
+      alert("Video OdorBot");
     },
     open() {
       L.marker.bindTooltip("my tooltip text").openTooltip();
@@ -578,9 +578,11 @@ export default {
 
       //challenge period
       const periodo = sfida.periodo;
-      var isIn = this.isWithinRange(periodo.dal, periodo.al);
+      var isActive = sfida.attiva;
 
-      if (isIn) {
+      //this.isWithinRange(periodo.dal, periodo.al);
+
+      if (isActive) {
         const categorie = sfida.categorie;
 
         //array of categories
