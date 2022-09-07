@@ -97,6 +97,78 @@
         </v-card>-->
       </l-control>
 
+      <!-- for create line  -->
+      <l-polyline
+        weight="8"
+        :lat-lngs="[
+          [44.835614484542226, 11.606593818361389],
+          [44.835913118377661, 11.606593818361389],
+          [44.837491611507801, 11.605740578831583],
+          [44.837662259413761, 11.60680712824384],
+          [44.837107653719386, 11.607660367773647],
+          [44.836318407154316, 11.606999107138046],
+          [44.835635815530473, 11.608428283350472],
+
+          // [44.838366182025851, 11.619776369096893],
+        ]"
+        color="blue"
+      />
+      <l-polyline
+        weight="8"
+        :lat-lngs="[
+          [44.838366182025851, 11.619776369096893],
+          [44.840221978003179, 11.620565615661963],
+          [44.838878125743733, 11.620011009967589],
+          [44.839667372308803, 11.618581833755165],
+          [44.839347407485128, 11.617685932248868],
+          [44.839987337132484, 11.619136439449539],
+          [44.84022197800318, 11.620565615661963],
+        ]"
+        color="blue"
+      />
+
+      <l-polyline
+        weight="8"
+        :lat-lngs="[
+          [44.84043528788563, 11.612075882340394],
+          [44.83779024534323, 11.611841241469696],
+          [44.84151, 11.61211],
+        ]"
+        color="blue"
+      />
+
+      <l-polyline
+        weight="8"
+        :lat-lngs="[
+          [44.82840461051536, 11.606316515514202],
+          [44.829257850045174, 11.606188529584731],
+          [44.8308790051518, 11.605761909819828],
+          [44.83090033614005, 11.606145867608241],
+          [44.830047096610244, 11.60751105085593],
+          [44.82966313882183, 11.608278966432756],
+          [44.82932184300991, 11.60663648033788],
+          [44.829257850045174, 11.606188529584731],
+          [44.82966313882183, 11.608278966432756],
+          [44.8289550982669, 11.609209148886869],
+        ]"
+        color="blue"
+      />
+
+      <l-polyline
+        weight="5"
+        :lat-lngs="[
+          [44.846107, 11.598717],
+          [44.84227, 11.58301],
+          [44.84884, 11.6129],
+          [44.850239, 11.633109],
+          [44.82365, 11.64844],
+          [44.808802, 11.589487],
+          [44.84227, 11.58301],
+        ]"
+        color="yellow"
+      />
+      <!-- <l-polyline :lat-lngs="connectedLine" color="green"></l-polyline>-->
+
       <l-geo-json
         v-if="showSmartHub"
         :geojson="SmartHubGeoJson"
@@ -123,6 +195,7 @@
         :options="optionsCentraline"
         :options-style="styleFunction"
       />
+
       <!-- for FerrAriaGeoJson json -->
 
       <l-geo-json
@@ -137,6 +210,14 @@
         v-if="showPiante"
         :geojson="PianteGeoJson"
         :options="optionsPiante"
+        :options-style="styleFunction"
+      />
+      <!-- for Aria json -->
+
+      <l-geo-json
+        v-if="showAria"
+        :geojson="AriaGeoJson"
+        :options="optionsAria"
         :options-style="styleFunction"
       />
       <l-marker
@@ -164,6 +245,7 @@ import {
   LControl,
   LIcon,
   LPopup,
+  LPolyline,
 } from "vue2-leaflet";
 import { icon } from "leaflet";
 import marketMarkerIcon from "../assets/market.png";
@@ -180,6 +262,7 @@ import FerrAria from "@/FerrAria.json";
 import Piante from "@/Piante.json";
 import Calendario from "@/Calendario.json";
 import SmartHub from "@/SmartHub.json";
+import Aria from "@/Aria.json";
 
 const L = window.L;
 
@@ -210,20 +293,26 @@ const pianteIcon = L.icon({
 });
 const centralineIcon = L.icon({
   iconUrl: centralineMarkerIcon,
-  iconSize: [37, 37],
-  iconAnchor: [16, 37],
+  iconSize: [25, 25],
+  iconAnchor: [0, 0],
   popupAnchor: [0, -28],
 });
 const ferrariaIcon = L.icon({
   iconUrl: ferrariaMarkerIcon,
-  iconSize: [37, 37],
-  iconAnchor: [16, 37],
+  iconSize: [25, 25],
+  iconAnchor: [0, 0],
   popupAnchor: [0, -28],
 });
 const smartHubIcon = L.icon({
   iconUrl: SmartHubMarkerIcon,
   iconSize: [37, 37],
   iconAnchor: [16, 37],
+  popupAnchor: [0, -28],
+});
+const ariaIcon = L.icon({
+  iconUrl: ferrariaMarkerIcon,
+  iconSize: [25, 25],
+  iconAnchor: [0, 0],
   popupAnchor: [0, -28],
 });
 
@@ -237,6 +326,7 @@ export default {
     LControl,
     LIcon,
     LPopup,
+    LPolyline,
   },
   data() {
     return {
@@ -254,6 +344,7 @@ export default {
       CentralineGeoJson: null,
       FerrAriaJson: null,
       PianteGeoJson: null,
+      AriaGeoJson: null,
       CalendarioJson: null,
       SmartHubGeoJson: null,
       fillColor: "#e4ce7f",
@@ -330,6 +421,17 @@ export default {
         pointToLayer: function (feature, latlng) {
           return L.marker(latlng, {
             icon: smartHubIcon,
+          });
+        },
+      };
+    },
+    optionsAria() {
+      return {
+        onEachFeature: this.onEachFeatureFunctionAria,
+        pointToLayer: function (feature, latlng) {
+          // console.log(latlng, feature);
+          return L.marker(latlng, {
+            icon: ariaIcon,
           });
         },
       };
@@ -453,6 +555,23 @@ export default {
         layer.bindPopup(popup);
       };
     },
+    onEachFeatureFunctionAria() {
+      if (!this.enableTooltip) {
+        return () => {};
+      }
+      return (feature, layer) => {
+        var text =
+          "Con Air-Break vogliamo creare maggiore consapevolezza attorno al tema della qualità dell'aria, nonché coinvolgere i cittadini e gli attori del territorio nel co-creare e sperimentare soluzioni innovative per migliorare la vivibilità dei quartieri e progettare percorsi di pendolarismo pulito in città.";
+
+        var popup = L.popup().setContent(
+          "<center><p><b>LE AZIONI DI AIR-BREAK</b></p></center><p>" +
+            text +
+            "</p><a href='https://airbreakferrara.net/le-azioni/' target='_blank'>Vai al Sito</a>"
+        );
+
+        layer.bindPopup(popup);
+      };
+    },
     onEachFeatureFunctionFerrAria() {
       if (!this.enableTooltip) {
         return () => {};
@@ -508,6 +627,13 @@ export default {
 
         layer.bindPopup(popup);
       }; //end return
+    },
+
+    connectedLine() {
+      /* return this.AriaGeoJson.features.map((feature) => {
+        return [...feature.geometry.coordinates].reverse();
+      });
+      */
     },
   },
   methods: {
@@ -572,6 +698,7 @@ export default {
     this.PianteGeoJson = Piante;
     this.CalendarioJson = Calendario;
     this.SmartHubJson = SmartHub;
+    this.AriaGeoJson = Aria;
     Object.entries(this.CalendarioJson.sfide).forEach((entry) => {
       let key = entry[0];
       let sfida = entry[1];
@@ -601,6 +728,8 @@ export default {
             this.showFerrAria = true;
           } else if (categoria == "SmartHub") {
             this.showSmartHub = true;
+          } else if (categoria == "Aria") {
+            this.showAria = true;
           }
         }
       } //end control if the challenge is active

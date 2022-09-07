@@ -1,0 +1,828 @@
+{
+    "type": "FeatureCollection",
+    "name": "Vertici_VENTO",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 286.50436138186933
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.638547638752627,
+                    44.848391746501093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0024027443316200002,
+                "angle": 271.92590244063018
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.636243892022151,
+                    44.849074338124943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.0045452082329200004,
+                "angle": 228.31874485934301
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.634153455174125,
+                    44.848605056383548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 3,
+                "vertex_part": 0,
+                "vertex_part_index": 3,
+                "distance": 0.0054491993074799999,
+                "angle": 182.19089410352129
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.633854821338693,
+                    44.847751816853744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 4,
+                "vertex_part": 0,
+                "vertex_part_index": 4,
+                "distance": 0.01224799798916,
+                "angle": 127.54587099387376
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.635603962374795,
+                    44.841181872474237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 5,
+                "vertex_part": 0,
+                "vertex_part_index": 5,
+                "distance": 0.01224799798916,
+                "angle": 90.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.635603962374795,
+                    44.841181872474237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 29.16761337956795
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.631124454843313,
+                    44.837299632613615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0042017173999699996,
+                "angle": 333.08720650981297
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.633172229714848,
+                    44.840968562591783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.01189567209459,
+                "angle": 241.0451968231466
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.625535735923084,
+                    44.841907126074567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 3,
+                "vertex_part": 0,
+                "vertex_part_index": 3,
+                "distance": 0.0141095779492,
+                "angle": 147.54179700311761
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624597172440296,
+                    44.839902013179525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 4,
+                "vertex_part": 0,
+                "vertex_part_index": 4,
+                "distance": 0.0141095779492,
+                "angle": 90.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624597172440296,
+                    44.839902013179525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 208.53998518791917
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.628991356018798,
+                    44.841309858403704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.00276810155924,
+                "angle": 208.53998518791917
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.627668834747599,
+                    44.838878125743754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 105.34089076392254
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.619573724708564,
+                    44.83612642826013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0024994603111700001,
+                "angle": 112.43983651175787
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.621984126380266,
+                    44.835465167624534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.0054415905591799997,
+                "angle": 119.53878225959322
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624543844969685,
+                    44.834014660423861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 123.93649946669686
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.617248646989843,
+                    44.833609371647206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0027510359781200001,
+                "angle": 121.96578954192
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.619531062732074,
+                    44.832073540493553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.0057804869300900003,
+                "angle": 119.99507961714311
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.622154774286228,
+                    44.830559040328147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 240.9453959008942
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624053232240046,
+                    44.834206639318069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0024157756206499999,
+                "angle": 251.91018977600541
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.621941464403776,
+                    44.833033434964584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.0037915830227200002,
+                "angle": 244.37819382392161
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.620576281156087,
+                    44.832862787058623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 3,
+                "vertex_part": 0,
+                "vertex_part_index": 3,
+                "distance": 0.0047721126595800002,
+                "angle": 240.31314264703627
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.619872358543995,
+                    44.832180195434781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 4,
+                "vertex_part": 0,
+                "vertex_part_index": 4,
+                "distance": 0.00501532334548,
+                "angle": 254.74488129734593
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.619637717673299,
+                    44.832116202470047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 206.83404347079599
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.631199113302173,
+                    44.828340617550651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0040638751723100002,
+                "angle": 206.83404347079599
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.629364648313089,
+                    44.824714349548977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 290.88315854458449
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.630175225866406,
+                    44.826378166632097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.0056848584426599999,
+                "angle": 290.88315854458449
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.624863809793363,
+                    44.828404610515392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 88.652112719695793
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.613665040964658,
+                    44.827060758255932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 1,
+                "vertex_part": 0,
+                "vertex_part_index": 1,
+                "distance": 0.00045340895925,
+                "angle": 95.417884652689693
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614118324464869,
+                    44.827071423750056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 2,
+                "vertex_part": 0,
+                "vertex_part_index": 2,
+                "distance": 0.00093350430378,
+                "angle": 111.12611970396442
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614587606206262,
+                    44.826970101555894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 3,
+                "vertex_part": 0,
+                "vertex_part_index": 3,
+                "distance": 0.00128473766425,
+                "angle": 131.47029891253948
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614891572788757,
+                    44.826794120902868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 4,
+                "vertex_part": 0,
+                "vertex_part_index": 4,
+                "distance": 0.0024686195224900001,
+                "angle": 142.68393632132725
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61560616089497,
+                    44.825850224673019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 5,
+                "vertex_part": 0,
+                "vertex_part_index": 5,
+                "distance": 0.0027576721229000001,
+                "angle": 154.58566318899003
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.615782141547992,
+                    44.825620916549383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 6,
+                "vertex_part": 0,
+                "vertex_part_index": 6,
+                "distance": 0.0031741729829800002,
+                "angle": 181.21332120076548
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.615878130995096,
+                    44.825215627772721
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 7,
+                "vertex_part": 0,
+                "vertex_part_index": 7,
+                "distance": 0.00339026442191,
+                "angle": 209.59090942938116
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.615819470777422,
+                    44.825007650637332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 8,
+                "vertex_part": 0,
+                "vertex_part_index": 8,
+                "distance": 0.00394101095849,
+                "angle": 234.73407811073417
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.615440845736069,
+                    44.824607694607735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 9,
+                "vertex_part": 0,
+                "vertex_part_index": 9,
+                "distance": 0.0042561397634900003,
+                "angle": 251.52144711703593
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61515287739476,
+                    44.824479708678268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 10,
+                "vertex_part": 0,
+                "vertex_part_index": 10,
+                "distance": 0.0046830260824700003,
+                "angle": 265.70204428137134
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61473692312398,
+                    44.824383719231164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 11,
+                "vertex_part": 0,
+                "vertex_part_index": 11,
+                "distance": 0.0050306786571499996,
+                "angle": 276.49116341704593
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614390294564995,
+                    44.82441038296647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 12,
+                "vertex_part": 0,
+                "vertex_part_index": 12,
+                "distance": 0.0053165158894600004,
+                "angle": 289.42002932154139
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.614107658970745,
+                    44.824453044942956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 13,
+                "vertex_part": 0,
+                "vertex_part_index": 13,
+                "distance": 0.0059091950083399996,
+                "angle": 309.20069731413599
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.613595715252861,
+                    44.824751678778391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 14,
+                "vertex_part": 0,
+                "vertex_part_index": 14,
+                "distance": 0.0062528573544500003,
+                "angle": 319.32917874666549
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.613366407129226,
+                    44.825007650637332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 15,
+                "vertex_part": 0,
+                "vertex_part_index": 15,
+                "distance": 0.0072340393392800002,
+                "angle": 331.03922560283769
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.612742475723055,
+                    44.825764900720038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 16,
+                "vertex_part": 0,
+                "vertex_part_index": 16,
+                "distance": 0.00755444825037,
+                "angle": 356.28429601432748
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.612641153528889,
+                    44.826068867302531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 17,
+                "vertex_part": 0,
+                "vertex_part_index": 17,
+                "distance": 0.0079455971590499993,
+                "angle": 22.89978356499352
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.612715811987748,
+                    44.826452825090946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 18,
+                "vertex_part": 0,
+                "vertex_part_index": 18,
+                "distance": 0.0083287393559899996,
+                "angle": 50.931962920364782
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.61293445461726,
+                    44.826767457167563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "vertex_index": 19,
+                "vertex_part": 0,
+                "vertex_part_index": 19,
+                "distance": 0.0090814882915900008,
+                "angle": 67.067899562520381
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.613627711735228,
+                    44.827060758255932
+                ]
+            }
+        }
+    ]
+}

@@ -1,21 +1,18 @@
 {
     "sfide": [
         {
-            "nome": "Test - Luoghi del Progetto Air-Break",
-            "slug": "test",
+            "nome": "Festa dell'aria",
+            "slug": "festa",
             "attiva": true,
             "categorie": [
                 {
-                    "nome": "Piante"
-                },
-                {
-                    "nome": "Centraline"
+                    "nome": "Aria"
                 },
                 {
                     "nome": "FerrAria"
                 },
                 {
-                    "nome": "FBK"
+                    "nome": "Centraline"
                 }
             ],
             "periodo": {

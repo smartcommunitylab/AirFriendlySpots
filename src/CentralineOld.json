@@ -10,6 +10,22 @@
     "features": [
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020065",
+            "properties": {
+                "name": "Barco",
+                "description": "Via Rino Maragno 46, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.607838,
+                    44.860988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "id": "aq_labservice_LS0621020067",
             "properties": {
                 "name": "Modena",
@@ -74,6 +90,22 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020072",
+            "properties": {
+                "name": "Mosti",
+                "description": "Via Gaetano Recchi 5H, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.609195,
+                    44.82685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "id": "aq_labservice_LS0621020073",
             "properties": {
                 "name": "Bologna",
@@ -85,6 +117,22 @@
                 "coordinates": [
                     11.589487,
                     44.808802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "aq_labservice_LS0621020074",
+            "properties": {
+                "name": "Cocomaro di Cona",
+                "description": "Via Comacchio 687, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.68375,
+                    44.812002
                 ]
             }
         },
@@ -106,6 +154,22 @@
         },
         {
             "type": "Feature",
+            "id": "aq_labservice_LS0621020077",
+            "properties": {
+                "name": "Pontelagoscuro",
+                "description": "Via Antonio Dolcetti 32, Ferrara",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.601144,
+                    44.879184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "id": "aq_labservice_LS0621020076",
             "properties": {
                 "name": "CUS Ferrara",
@@ -117,6 +181,22 @@
                 "coordinates": [
                     11.633109,
                     44.850239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "aq_labservice_LS0621020066",
+            "properties": {
+                "name": "Porotto",
+                "description": "Via Ladino 26, Porotto",
+                "organization": "aq_labservice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5508,
+                    44.84914
                 ]
             }
         }
