@@ -25,7 +25,7 @@ fronted-build:
   image: node:lts-alpine
   stage: build
   script:
-    - apk --no-cache add python2 build-base
+    - apk --no-cache add python3 build-base
     - npm install
     - npm run build
 
