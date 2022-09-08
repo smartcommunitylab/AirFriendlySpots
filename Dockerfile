@@ -1,6 +1,6 @@
 FROM node:lts-alpine AS build
 
-RUN apk --no-cache add python2 build-base
+RUN apk --no-cache add python3 build-base
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
