@@ -99,7 +99,6 @@
 
       <!-- for create line  -->
       <l-polyline
-        weight="8"
         :lat-lngs="[
           [44.835614484542226, 11.606593818361389],
           [44.835913118377661, 11.606593818361389],
@@ -114,7 +113,6 @@
         color="blue"
       />
       <l-polyline
-        weight="8"
         :lat-lngs="[
           [44.838366182025851, 11.619776369096893],
           [44.840221978003179, 11.620565615661963],
@@ -128,7 +126,6 @@
       />
 
       <l-polyline
-        weight="8"
         :lat-lngs="[
           [44.84043528788563, 11.612075882340394],
           [44.83779024534323, 11.611841241469696],
@@ -138,7 +135,6 @@
       />
 
       <l-polyline
-        weight="8"
         :lat-lngs="[
           [44.82840461051536, 11.606316515514202],
           [44.829257850045174, 11.606188529584731],
@@ -155,7 +151,6 @@
       />
 
       <l-polyline
-        weight="5"
         :lat-lngs="[
           [44.846107, 11.598717],
           [44.84227, 11.58301],
@@ -252,6 +247,7 @@ import marketMarkerIcon from "../assets/market.png";
 import ferrariaMarkerIcon from "../assets/ferraria.png";
 import bottegheMarkerIcon from "../assets/botteghe.png";
 import pianteMarkerIcon from "../assets/piante.png";
+import visitedMarkerIcon from "../assets/visited.png";
 import centralineMarkerIcon from "../assets/centraline.png";
 import userMarkerIcon from "../assets/user.png";
 import SmartHubMarkerIcon from "../assets/smarthub.png";
@@ -289,6 +285,12 @@ const pianteIcon = L.icon({
   iconUrl: pianteMarkerIcon,
   iconSize: [37, 37],
   iconAnchor: [16, 37],
+  popupAnchor: [0, -28],
+});
+const visitedIcon = L.icon({
+  iconUrl: visitedMarkerIcon,
+  iconSize: [25, 25],
+  iconAnchor: [0, 0],
   popupAnchor: [0, -28],
 });
 const centralineIcon = L.icon({
@@ -353,6 +355,7 @@ export default {
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       marker: latLng(47.41322, -1.219482),
       userLocation: {},
+      visited: "test",
       icon: userIcon,
     };
   },
@@ -397,7 +400,8 @@ export default {
       return {
         onEachFeature: this.onEachFeatureFunctionFerrAria,
         pointToLayer: function (feature, latlng) {
-          //  console.log(latlng, feature);
+          //console.log("VISITED: " + this.$route.query.visited);
+          // this.checkVisitedPoint(feature);
           return L.marker(latlng, {
             icon: ferrariaIcon,
           });
@@ -539,6 +543,11 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
+        var result = this.checkVisitedPoint(feature, this.$route.query.visited);
+        if (result) {
+          layer.setIcon(visitedIcon);
+        }
+
         var text =
           "14 <b>centraline di rilevamento</b> della qualità dell’aria distribuite in città.";
 
@@ -560,6 +569,11 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
+        var result = this.checkVisitedPoint(feature, this.$route.query.visited);
+        if (result) {
+          layer.setIcon(visitedIcon);
+        }
+
         var text =
           "Con Air-Break vogliamo creare maggiore consapevolezza attorno al tema della qualità dell'aria, nonché coinvolgere i cittadini e gli attori del territorio nel co-creare e sperimentare soluzioni innovative per migliorare la vivibilità dei quartieri e progettare percorsi di pendolarismo pulito in città.";
 
@@ -577,6 +591,11 @@ export default {
         return () => {};
       }
       return (feature, layer) => {
+        var result = this.checkVisitedPoint(feature, this.$route.query.visited);
+        if (result) {
+          layer.setIcon(visitedIcon);
+        }
+
         var text =
           "<b>FerrAria - </b>Il centro d’informazione cittadina sulla qualità dell’aria a Ferrara.";
         var text1 =
@@ -648,6 +667,11 @@ export default {
           };
         });
       }
+    },
+
+    checkVisitedPoint(point, array) {
+      var exist = array.indexOf(point.id) > -1;
+      return exist;
     },
     dayOfWeek(day) {
       if (day == 0) {
