@@ -673,8 +673,14 @@ export default {
     },
 
     checkVisitedPoint(point, points) {
-      const arrayOfPoints = points.split(",");
-      var exist = arrayOfPoints.indexOf(point.id) > -1;
+      var exist = false;
+      if (points != undefined) {
+        const arrayOfPoints = points.split(",");
+
+        if (arrayOfPoints != undefined) {
+          exist = arrayOfPoints.indexOf(point.id) > -1;
+        }
+      }
       return exist;
     },
     dayOfWeek(day) {
