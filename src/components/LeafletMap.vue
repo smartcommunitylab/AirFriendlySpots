@@ -405,8 +405,6 @@ export default {
       return {
         onEachFeature: this.onEachFeatureFunctionFerrAria,
         pointToLayer: function (feature, latlng) {
-          //console.log("VISITED: " + this.$route.query.visited);
-          // this.checkVisitedPoint(feature);
           return L.marker(latlng, {
             icon: ferrariaIcon,
           });
@@ -674,8 +672,9 @@ export default {
       }
     },
 
-    checkVisitedPoint(point, array) {
-      var exist = array.indexOf(point.id) > -1;
+    checkVisitedPoint(point, points) {
+      const arrayOfPoints = points.split(",");
+      var exist = arrayOfPoints.indexOf(point.id) > -1;
       return exist;
     },
     dayOfWeek(day) {
