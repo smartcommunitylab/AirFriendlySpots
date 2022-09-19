@@ -1,6 +1,11 @@
 <template>
   <div>
-    <l-map :zoom="zoom" :center="centerPovo" style="height: 93vh">
+    <l-map
+      v-if="showMap"
+      :zoom="zoom"
+      :center="[userLocation.lat, userLocation.lng]"
+      style="height: 93vh"
+    >
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
@@ -356,9 +361,8 @@ export default {
       showPiante: false,
       showSmartHub: false,
       enableTooltip: true,
-      zoom: 14,
-      centerFerrara: [44.832605170804072, 11.617446352453642],
-      centerPovo: [46.06741655386937, 11.151628724313968],
+      showMap: false,
+      zoom: 16,
       MercatiGeoJson: null,
       CentralineGeoJson: null,
       FerrAriaJson: null,
@@ -372,7 +376,7 @@ export default {
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       marker: latLng(47.41322, -1.219482),
-      userLocation: {},
+      userLocation: null,
       visited: "test",
       icon: userIcon,
     };
@@ -714,6 +718,7 @@ export default {
             lat: pos.coords.latitude,
             lng: pos.coords.longitude,
           };
+          this.showMap = true;
         });
       }
     },
