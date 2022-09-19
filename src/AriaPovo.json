@@ -1,0 +1,924 @@
+{
+    "type": "FeatureCollection",
+    "name": "Vertici_ARIA_Povo",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": "p_1",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.150536514047356,
+                    46.06789562030369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_2",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15045358793785,
+                    46.06755513553199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_3",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.150653327826502,
+                    46.06839816651678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_4",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.151339101475928,
+                    46.06836583131281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_5",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15170529127115,
+                    46.06805864599487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_6",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.152414367947753,
+                    46.067564374289276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_7",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.153925476536488,
+                    46.066285774761006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_8",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.154825507818273,
+                    46.066103968238444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_9",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.155254636746298,
+                    46.06612504728549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_10",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.156128084797727,
+                    46.06599066821908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_11",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.156393916814311,
+                    46.06541889481729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_12",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15659518963052,
+                    46.064554636205976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_13",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15662177282886,
+                    46.063774683898025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_14",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.156648356038263,
+                    46.06309485160856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_15",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.155348143872411,
+                    46.062398442574235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_16",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.154231531507449,
+                    46.06076393225747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_17",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.153058436895682,
+                    46.05733383225668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_18",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15021529551191,
+                    46.053067596977115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_19",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.14883127571831,
+                    46.05103487680643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_20",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.147715476811676,
+                    46.050178580349176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_20",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.146964458201504,
+                    46.04967968844616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_21",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.150456373021033,
+                    46.06680206390811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_22",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.15033913094567,
+                    46.064903985804435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_23",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.119870120329772,
+                    46.07200431992512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_24",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.119520401700258,
+                    46.07143567953562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_25",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.119684332296254,
+                    46.07040958473622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_26",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.121250780246154,
+                    46.070257943494454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_27",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.121239851553181,
+                    46.07158226295567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_28",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.119906549337832,
+                    46.06956797057393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_29",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.12115559688583,
+                    46.06758609272358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_30",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.123476618741554,
+                    46.06526575235991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_31",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.120053892603522,
+                    46.06678805152881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_32",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240625446443893,
+                    46.060510345985286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_33",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240532385168683,
+                    46.060320803090065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_34",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240644436073953,
+                    46.0607608456591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_35",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240906682831113,
+                    46.060959359954786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_36",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.24105687871378,
+                    46.06051270178267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_37",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240862107191372,
+                    46.06023862811628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_38",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.241346558515579,
+                    46.06053440590758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_39",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240368218441978,
+                    46.0606686513986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_40",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.240321031621912,
+                    46.059901374010835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_41",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.241626768106086,
+                    46.06071855926102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_42",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3664851555809,
+                    46.02243353455123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_43",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.367031009684576,
+                    46.02271263574202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_44",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.365981497695884,
+                    46.02262051739545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_45",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.365604299017562,
+                    46.02222778741943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_46",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.365552798175605,
+                    46.02390895088923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "p_47",
+            "properties": {
+                "vertex_index": 0,
+                "vertex_part": 0,
+                "vertex_part_index": 0,
+                "distance": 0.0,
+                "angle": 0.0,
+                "visible": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.366643448914102,
+                    46.02310546580348
+                ]
+            }
+        }
+    ]
+}

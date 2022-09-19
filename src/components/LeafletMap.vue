@@ -1,6 +1,6 @@
 <template>
   <div>
-    <l-map :zoom="zoom" :center="center" style="height: 93vh">
+    <l-map :zoom="zoom" :center="centerPovo" style="height: 93vh">
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
@@ -220,6 +220,14 @@
         :options="optionsAria"
         :options-style="styleFunction"
       />
+
+      <l-geo-json
+        v-if="showAriaPovo"
+        :geojson="AriaPovoGeoJson"
+        :options="optionsAriaPovo"
+        :options-style="styleFunction"
+      />
+
       <l-marker
         v-if="userLocation.lat && userLocation.lng"
         :icon="icon"
@@ -247,7 +255,7 @@ import {
   LPopup,
   LPolyline,
 } from "vue2-leaflet";
-import { icon } from "leaflet";
+//import { icon } from "leaflet";
 import marketMarkerIcon from "../assets/market.png";
 import ferrariaMarkerIcon from "../assets/ferraria.png";
 import bottegheMarkerIcon from "../assets/botteghe.png";
@@ -264,6 +272,7 @@ import Piante from "@/Piante.json";
 import Calendario from "@/Calendario.json";
 import SmartHub from "@/SmartHub.json";
 import Aria from "@/Aria.json";
+import AriaPovo from "@/AriaPovo.json";
 
 const L = window.L;
 
@@ -339,19 +348,23 @@ export default {
     return {
       loading: false,
       showMercati: false,
+      showAria: false,
+      showAriaPovo: false,
       showBotteghe: false,
       showCentraline: false,
       showFerrAria: false,
       showPiante: false,
       showSmartHub: false,
       enableTooltip: true,
-      zoom: 12,
-      center: [44.832605170804072, 11.617446352453642],
+      zoom: 14,
+      centerFerrara: [44.832605170804072, 11.617446352453642],
+      centerPovo: [46.06741655386937, 11.151628724313968],
       MercatiGeoJson: null,
       CentralineGeoJson: null,
       FerrAriaJson: null,
       PianteGeoJson: null,
       AriaGeoJson: null,
+      AriaPovoGeoJson: null,
       CalendarioJson: null,
       SmartHubGeoJson: null,
       fillColor: "#e4ce7f",
@@ -435,6 +448,17 @@ export default {
     optionsAria() {
       return {
         onEachFeature: this.onEachFeatureFunctionAria,
+        pointToLayer: function (feature, latlng) {
+          // console.log(latlng, feature);
+          return L.marker(latlng, {
+            icon: ariaIcon,
+          });
+        },
+      };
+    },
+    optionsAriaPovo() {
+      return {
+        onEachFeature: this.onEachFeatureFunctionAriaPovo,
         pointToLayer: function (feature, latlng) {
           // console.log(latlng, feature);
           return L.marker(latlng, {
@@ -568,6 +592,28 @@ export default {
       };
     },
     onEachFeatureFunctionAria() {
+      if (!this.enableTooltip) {
+        return () => {};
+      }
+      return (feature, layer) => {
+        var result = this.checkVisitedPoint(feature, this.$route.query.visited);
+        if (result) {
+          layer.setIcon(visitedIcon);
+        }
+
+        var text =
+          "Con Air-Break vogliamo creare maggiore consapevolezza attorno al tema della qualità dell'aria, nonché coinvolgere i cittadini e gli attori del territorio nel co-creare e sperimentare soluzioni innovative per migliorare la vivibilità dei quartieri e progettare percorsi di pendolarismo pulito in città.";
+
+        var popup = L.popup().setContent(
+          "<center><p><b>LE AZIONI DI AIR-BREAK</b></p></center><p>" +
+            text +
+            "</p><a href='https://airbreakferrara.net/le-azioni/' target='_blank'>Vai al Sito</a>"
+        );
+
+        layer.bindPopup(popup);
+      };
+    },
+    onEachFeatureFunctionAriaPovo() {
       if (!this.enableTooltip) {
         return () => {};
       }
@@ -733,6 +779,7 @@ export default {
     this.CalendarioJson = Calendario;
     this.SmartHubJson = SmartHub;
     this.AriaGeoJson = Aria;
+    this.AriaPovoGeoJson = AriaPovo;
     Object.entries(this.CalendarioJson.sfide).forEach((entry) => {
       let key = entry[0];
       let sfida = entry[1];
@@ -764,6 +811,8 @@ export default {
             this.showSmartHub = true;
           } else if (categoria == "Aria") {
             this.showAria = true;
+          } else if (categoria == "AriaPovo") {
+            this.showAriaPovo = true;
           }
         }
       } //end control if the challenge is active

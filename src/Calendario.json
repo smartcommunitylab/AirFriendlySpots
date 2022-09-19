@@ -1,9 +1,23 @@
 {
     "sfide": [
         {
+            "nome": "Festa dell'Aria - POVO",
+            "slug": "festa-povo",
+            "attiva": true,
+            "categorie": [
+                {
+                    "nome": "AriaPovo"
+                }
+            ],
+            "periodo": {
+                "dal": "2022-09-19",
+                "al": "2022-12-31"
+            }
+        },
+        {
             "nome": "Festa dell'Aria",
             "slug": "festa",
-            "attiva": true,
+            "attiva": false,
             "categorie": [
                 {
                     "nome": "Aria"
