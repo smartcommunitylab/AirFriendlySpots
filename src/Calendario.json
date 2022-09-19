@@ -18,7 +18,7 @@
         {
             "nome": "Festa dell'Aria",
             "slug": "festa",
-            "attiva": true,
+            "attiva": false,
             "weblink": "https://airfriendlyspots.playngo.it",
             "categorie": [
                 {
