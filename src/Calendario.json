@@ -1,8 +1,8 @@
 {
     "sfide": [
         {
-            "nome": "Festa dell'Aria - TRENTO",
-            "slug": "festa-povo",
+            "nome": "Festa dell'Aria",
+            "slug": "festa",
             "attiva": true,
             "weblink": "https://airfriendlyspots.playngo.it",
             "categorie": [
@@ -16,8 +16,8 @@
             }
         },
         {
-            "nome": "Festa dell'Aria",
-            "slug": "festa",
+            "nome": "Festa dell'Aria - Old",
+            "slug": "festa-old",
             "attiva": false,
             "weblink": "https://airfriendlyspots.playngo.it",
             "categorie": [
