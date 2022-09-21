@@ -1,11 +1,6 @@
 <template>
   <div>
-    <l-map
-      v-if="showMap"
-      :zoom="zoom"
-      :center="[userLocation.lat, userLocation.lng]"
-      style="height: 93vh"
-    >
+    <l-map v-if="showMap" :zoom="zoom" :center="center" style="height: 93vh">
       <l-tile-layer :url="url" :attribution="attribution" />
 
       <l-control>
@@ -362,7 +357,8 @@ export default {
       showSmartHub: false,
       enableTooltip: true,
       showMap: false,
-      zoom: 16,
+      zoom: 14,
+      center: [46.07266104809106, 11.130024731304905],
       MercatiGeoJson: null,
       CentralineGeoJson: null,
       FerrAriaJson: null,
@@ -720,6 +716,8 @@ export default {
           };
           this.showMap = true;
         });
+      } else {
+        console.log("ERRORE DI MAPPA");
       }
     },
 
