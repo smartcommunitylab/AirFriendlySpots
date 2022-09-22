@@ -712,12 +712,13 @@ export default {
   },
   methods: {
     getUserPosition() {
-      alert("test" + navigator.geolocation);
-
       if (navigator.geolocation) {
         // get GPS position
         navigator.geolocation.getCurrentPosition((pos) => {
           // set the user location
+          alert(
+            "user location: " + pos.coords.latitude + " " + pos.coords.longitude
+          );
           this.userLocation = {
             lat: pos.coords.latitude,
             lng: pos.coords.longitude,
