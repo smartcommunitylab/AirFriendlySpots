@@ -716,9 +716,6 @@ export default {
         // get GPS position
         navigator.geolocation.getCurrentPosition((pos) => {
           // set the user location
-          alert(
-            "user location: " + pos.coords.latitude + " " + pos.coords.longitude
-          );
           this.userLocation = {
             lat: pos.coords.latitude,
             lng: pos.coords.longitude,
@@ -728,8 +725,6 @@ export default {
         });
       } else {
         console.log("ERRORE DI MAPPA");
-        this.showSpinner = false;
-        this.showMap = true;
       }
     },
 
