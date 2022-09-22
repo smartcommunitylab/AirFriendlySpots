@@ -9,7 +9,7 @@
     >
       <l-tile-layer :url="url" :attribution="attribution" />
 
-      <l-control>
+      <!--<l-control>
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn color="primary" dark v-bind="attrs" v-on="on" width="100%">
@@ -35,7 +35,7 @@
                   Citizens’ reports of odor nuisances that cause olfactory
                   harassments over the time.
                 </p>
-                <!-- <v-img src="../assets/OdorAlert.jpg" height="200px"></v-img>-->
+                
 
                 <v-card-subtitle class="justify-center">
                   <a href="https://odorprep.eu/odorbot/" target="_blank"
@@ -72,36 +72,8 @@
             </v-list-item>
           </v-list>
         </v-menu>
-        <!--
-        <v-card class="mx-auto" max-width="344" color="#fec325">
-          <v-img src="../assets/OdorAlert.jpg" height="200px"></v-img>
-          <center>
-            <v-card-subtitle> Segnala un Odore o un Disagio </v-card-subtitle>
-
-            <v-card-actions>
-              <v-btn
-                class="ml-2"
-                variant="outlined"
-                size="small"
-                @click="openVideo"
-              >
-                VIDEO
-                <font-awesome-icon icon="fa-brands fa-youtube" color="red" />
-              </v-btn>
-              <v-btn
-                @click="openBot"
-                class="ml-2"
-                variant="outlined"
-                size="small"
-              >
-                Segnala
-             
-                <font-awesome-icon icon="fa-brands fa-telegram" color="blue" />
-              </v-btn>
-            </v-card-actions>
-          </center>
-        </v-card>-->
-      </l-control>
+        
+      </l-control>-->
 
       <!-- for create line  -->
       <l-polyline
