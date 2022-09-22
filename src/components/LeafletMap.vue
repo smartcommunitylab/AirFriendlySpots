@@ -725,6 +725,8 @@ export default {
         });
       } else {
         console.log("ERRORE DI MAPPA");
+        this.showSpinner = false;
+        this.showMap = true;
       }
     },
 
