@@ -712,6 +712,8 @@ export default {
   },
   methods: {
     getUserPosition() {
+      alert("test" + navigator.geolocation);
+
       if (navigator.geolocation) {
         // get GPS position
         navigator.geolocation.getCurrentPosition((pos) => {
