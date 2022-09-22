@@ -4,7 +4,7 @@
     <l-map
       v-if="showMap"
       :zoom="zoom"
-      :center="[userLocation.lat, userLocation.lng]"
+      :center="centerPovo"
       style="height: 93vh"
     >
       <l-tile-layer :url="url" :attribution="attribution" />
@@ -364,6 +364,8 @@ export default {
       enableTooltip: true,
       showMap: false,
       showSpinner: true,
+      centerPovo: [46.064426196986204, 11.15143523484691],
+      userLocation: [46.064426196986204, 11.15143523484691],
       zoom: 16,
       MercatiGeoJson: null,
       CentralineGeoJson: null,
@@ -378,12 +380,13 @@ export default {
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       marker: latLng(47.41322, -1.219482),
-      userLocation: null,
       visited: "test",
       icon: userIcon,
     };
   },
   mounted() {
+    this.showSpinner = false;
+    this.showMap = true;
     this.getUserPosition();
   },
 
@@ -720,8 +723,6 @@ export default {
             lat: pos.coords.latitude,
             lng: pos.coords.longitude,
           };
-          this.showSpinner = false;
-          this.showMap = true;
         });
       } else {
         console.log("ERRORE DI MAPPA");
