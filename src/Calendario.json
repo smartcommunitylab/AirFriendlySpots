@@ -7,21 +7,6 @@
             "weblink": "https://airfriendlyspots.playngo.it",
             "categorie": [
                 {
-                    "nome": "AriaPovo"
-                }
-            ],
-            "periodo": {
-                "dal": "2022-09-19",
-                "al": "2022-12-31"
-            }
-        },
-        {
-            "nome": "Festa dell'Aria - Old",
-            "slug": "festa-old",
-            "attiva": false,
-            "weblink": "https://airfriendlyspots.playngo.it",
-            "categorie": [
-                {
                     "nome": "Aria"
                 },
                 {
@@ -32,8 +17,8 @@
                 }
             ],
             "periodo": {
-                "dal": "2022-05-04",
-                "al": "2022-12-31"
+                "dal": "2022-10-06",
+                "al": "2022-10-08"
             }
         }
     ]

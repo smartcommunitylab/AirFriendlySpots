@@ -4,7 +4,7 @@
     <l-map
       v-if="showMap"
       :zoom="zoom"
-      :center="centerPovo"
+      :center="centerFerrara"
       style="height: 93vh"
     >
       <l-tile-layer :url="url" :attribution="attribution" />
@@ -337,8 +337,10 @@ export default {
       showMap: false,
       showSpinner: true,
       centerPovo: [46.064426196986204, 11.15143523484691],
-      userLocation: [46.064426196986204, 11.15143523484691],
-      zoom: 16,
+      centerFerrara: [44.832808812583245, 11.619553834816527],
+      userLocation: [44.832808812583245, 11.619553834816527],
+      userLocationPovo: [46.064426196986204, 11.15143523484691],
+      zoom: 15,
       MercatiGeoJson: null,
       CentralineGeoJson: null,
       FerrAriaJson: null,
