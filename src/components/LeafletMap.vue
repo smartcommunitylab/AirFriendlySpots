@@ -340,7 +340,7 @@ export default {
       centerFerrara: [44.832808812583245, 11.619553834816527],
       userLocation: [44.832808812583245, 11.619553834816527],
       userLocationPovo: [46.064426196986204, 11.15143523484691],
-      zoom: 15,
+      zoom: 14,
       MercatiGeoJson: null,
       CentralineGeoJson: null,
       FerrAriaJson: null,
